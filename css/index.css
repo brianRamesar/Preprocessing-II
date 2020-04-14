@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  width: 100%;
+  border-bottom: 1px dashed grey;
+  display: flex;
+  padding: 0 17%;
+  justify-content: space-between;
+}
+nav .logo {
+  padding: 2% 0%;
+}
+nav .navLinks {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-items: center;
+}
+nav .navLinks a {
+  text-decoration: none;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +245,16 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination button {
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 10px;
+  box-shadow: none;
+  background-color: #3aaa3a;
+  color: white;
+}
+.home .content-pick .destination .btn {
+  font-size: 1.5rem;
 }

@@ -1,1 +1,24 @@
 // Mixins in here
+
+.navPosition(@jc){
+    display: flex;
+    padding: 0 17%;
+    justify-content: @jc;
+}
+
+.navLinkStyle(@size:1.5rem,@align:center){
+    display: flex;
+    justify-content: space-between;
+    font-size: @size;
+    align-items: @align;
+}
+
+.buttons(@wSize,@bg,){
+    width: @wSize;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: @bg;
+    color: white;
+}
